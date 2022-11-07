@@ -1,8 +1,7 @@
 import React from 'react'
 import { useState, useEffect } from "react";
 import axios from "axios";
-import { NavLink, Link } from "react-router-dom";
-import { useParams, useNavigate } from 'react-router-dom';
+import { useParams} from 'react-router-dom';
 
 function Beers() {
   const { beerId } = useParams();
